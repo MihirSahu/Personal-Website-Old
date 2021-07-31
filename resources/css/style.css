@@ -48,6 +48,10 @@ html {
     color: #DC4731;
 }
 
+.ionicon {
+    color: #fff;
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto 0 auto;
