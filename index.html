@@ -8,7 +8,14 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/modern-normalize.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet"> 
-        <script src="resources/js/copyClipboard.js"></script>
+
+        <script>
+            function copyText() {
+              var copyText = "The One#6087";
+              navigator.clipboard.writeText(copyText);
+              alert("Copied the text: " + copyText);
+            }
+        </script>
         
     </head>
     
@@ -26,7 +33,7 @@
                     </ul>
                     <ul class="main-nav-2">
                         <li class="navbar-brand"><a href="https://github.com/MihirSahu" target="blank"><ion-icon class="ionicon" name="logo-github"></ion-icon></a></li>
-                        <li class="navbar-brand"><a target="blank"><ion-icon class="ionicon" name="logo-discord"></ion-icon></a></li>
+                        <li class="navbar-brand"><a target="blank"><button onclick="copyText()" class="discord-button"><ion-icon class="ionicon" name="logo-discord"></ion-icon></button></a></li>
                     </ul>
                 </div>
             </nav>

@@ -48,6 +48,12 @@ html {
     color: #DC4731;
 }
 
+.discord-button {
+    background-color: #2C2F31;
+    text-decoration: none;
+    border: none;
+}
+
 .ionicon {
     color: #fff;
 }
