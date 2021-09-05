@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -30,6 +31,11 @@ html {
 .navbar-item-1 {
     display: inline-block;
     margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #777877;
 }
 
 .navbar-brand {
@@ -139,8 +145,6 @@ h2 {
     text-decoration: none;
     border: none;
     cursor: pointer;
-}
-
 }
 
 .other {
