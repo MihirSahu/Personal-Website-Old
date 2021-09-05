@@ -52,6 +52,7 @@ html {
     background-color: #2C2F31;
     text-decoration: none;
     border: none;
+    cursor: pointer;
 }
 
 .ionicon {
@@ -97,7 +98,6 @@ h2 {
 .author-text {
     font-size: 22px;
     float: left;
-    margin-top: 30px;
     margin-left: 20px;
 }
 
@@ -120,8 +120,27 @@ h2 {
 }
 
 .author-box {
-    border-top: 1px solid #808080;
+    border-top: 1px solid #fff;
     padding-top: 20px;
+    height: 150px;
+}
+
+.social-icons {
+    float: left;
+    font-size: 25px;
+    top: 30px;
+    margin-left: 20px;
+    color: #fff;
+    list-style-type: none;
+}
+
+.discord-button-2 {
+    background-color: #1B1E1F;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
 }
 
 .other {
