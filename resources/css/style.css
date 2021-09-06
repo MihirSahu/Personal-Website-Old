@@ -12,9 +12,15 @@ html {
 .nav-whole {
     background-color: #2C2F31;
     height: 70px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .main-nav {
+    margin-left: 50px;
     margin-top: 20px; 
     list-style: none;
     float: left;
@@ -22,6 +28,7 @@ html {
 }
 
 .main-nav-2 {
+    margin-right: 50px;
     margin-top: 20px; 
     list-style: none;
     float: right;
@@ -105,6 +112,12 @@ h2 {
     font-size: 22px;
     float: left;
     margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#author-text-2 {
+    float: right;
 }
 
 .container {
@@ -132,9 +145,10 @@ h2 {
 }
 
 .social-icons {
-    float: left;
+    float: right;
     font-size: 25px;
     top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
     color: #fff;
     list-style-type: none;
