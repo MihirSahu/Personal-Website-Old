@@ -91,27 +91,41 @@ html {
     text-align: center;
 }
 
-.about-me-container {
-    border: white;
-    border-style: solid;
-    width: 1140px;
+.about-me-section {
+    width: 1400px;
     margin: 20px auto 0 auto;
+    display: flex;
 }
 
 .about-me-text-container {
-    border: white;
-    border-style: solid;
     float: left;
-    width: 570px;
+    width: 600px;
     margin: 20px auto 0 auto;
 }
 
 .about-me {
-    font-weight: 100;
+    font-weight: 90;
 }
 
 .about-me-text {
     font-weight: bolder;
+}
+
+.table {
+    width: 25%;
+    padding-top: 40px;
+}
+
+th, td {
+    width: 10%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.beach-pic {
+    width: 400px;
+    height: auto;
+    margin-left: 50px;
 }
 
 .ionicon {
@@ -167,7 +181,8 @@ h2 {
 }
 
 .container {
-    width: 1140px;
+    /*width: 1140px;*/
+    width: 1300px;
     margin: 20px auto 0 auto;
 }
 
