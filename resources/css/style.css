@@ -40,6 +40,11 @@ html {
     margin-left: 10px;
 }
 
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+}
+
 .link {
     text-decoration: none;
     color: #777877;
@@ -93,7 +98,7 @@ html {
 
 .about-me-section {
     width: 1400px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0 175px;
     display: flex;
 }
 
@@ -123,9 +128,11 @@ th, td {
 }
 
 .beach-pic {
-    width: 400px;
+    width: 350px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 20px;
+    border-radius: 10%;
+    margin-top: 15px;
 }
 
 .ionicon {
