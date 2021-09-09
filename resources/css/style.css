@@ -97,9 +97,10 @@ html {
 }
 
 .about-me-section {
-    width: 1400px;
-    margin: 20px auto 0 175px;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .about-me-text-container {
@@ -137,16 +138,25 @@ th, td {
 
 .development-title {
     font-weight: 530;
+    margin-left: 8%;
 }
 
 .codersrank-widgets {
-    width: 1320px;
-    margin: 150px auto 0 175px;
+    width: 100%;
     display: inline-block;
+    margin-top: 7%;
 }
 
 .codersrank-chart {
     margin-bottom: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.codersrank-activity {
+    margin-bottom: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .ionicon {
