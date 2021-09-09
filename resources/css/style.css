@@ -135,10 +135,18 @@ th, td {
     margin-top: 15px;
 }
 
+.development-title {
+    font-weight: 530;
+}
+
 .codersrank-widgets {
-    width: 1400px;
-    margin: 90px auto 0 175px;
-    display: flex;
+    width: 1320px;
+    margin: 150px auto 0 175px;
+    display: inline-block;
+}
+
+.codersrank-chart {
+    margin-bottom: 60px;
 }
 
 .ionicon {
