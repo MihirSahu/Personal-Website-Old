@@ -110,11 +110,11 @@ html {
 }
 
 .about-me {
-    font-weight: 90;
+    font-weight: lighter;
 }
 
 .about-me-text {
-    font-weight: bolder;
+    font-weight:normal;
 }
 
 .table {
@@ -157,6 +157,28 @@ th, td {
     margin-bottom: 60px;
     margin-left: 8%;
     margin-right: 8%;
+}
+
+.hire-me-section {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.hire-me-title {
+    font-weight: 530;
+    margin-left: 8%;
+}
+
+.hire-me-text {
+    margin-left: 8%;
+}
+
+.resume-button {
+    padding: 10px 10px 10px 10px;
+    background-color:#2C2F31;
+    text-decoration: none;
+    color: white;
 }
 
 .ionicon {
@@ -213,8 +235,9 @@ h2 {
 
 .container {
     /*width: 1140px;*/
-    width: 1300px;
+    width: 100%;
     margin: 20px auto 0 auto;
+    display: inline-block;
 }
 
 .blog-post {
@@ -234,6 +257,10 @@ h2 {
     border-top: 1px solid #fff;
     padding-top: 20px;
     height: 150px;
+}
+
+.ul-social-icons {
+    margin-right: 10%;
 }
 
 .social-icons {
@@ -262,6 +289,7 @@ h2 {
     width: 100px;
     border-radius: 50%;
     float: left;
+    margin-left: 10%;
 }
 
 .blog-post img {
