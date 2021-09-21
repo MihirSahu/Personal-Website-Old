@@ -76,7 +76,6 @@ html {
 .masthead {
     height: 100vh;
     width: 100%;
-    background-image: url('../../src/mountains.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
