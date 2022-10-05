@@ -4,7 +4,7 @@
   "description": "My personal website.",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss build -i src/styles.css -o public/styles.css --watch",
+    "watch": "tailwindcss build -i src/css/style.css -o public/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
